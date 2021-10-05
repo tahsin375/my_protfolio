@@ -6,7 +6,7 @@ h1{
   font-size: 45px;
   
 }
-.namehigh{
+.orangehigh{
   color: orange;
 
 }
@@ -27,6 +27,7 @@ h1{
 }
 section{
   height: 500px;
+  padding-bottom: 170px;
 }
 .linkbutton{
   text-decoration: none;
@@ -36,5 +37,38 @@ section{
   color: white;
   font-weight: 700;
 
+}
+p{
+  color: dimgray;
+}
+.dream-area{
+  background-image: url("resources/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position:right ;
+}
+.singleaboutme{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 70%;
+}
+.aboutme{
+  background-image: url("resources/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+
+}
+#edu_cation{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg , lightsalmon   ,tomato ) ;
+  border-image-slice: 1;
+}
+#con_tact{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg ,blue,cyan ) ;
+  border-image-slice: 1;
+
+}
+footer p{
+  text-align: center;
 }
 
